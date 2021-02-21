@@ -1,0 +1,114 @@
+.wall
+{
+  width: 100%;
+  min-height: 200px;
+  background-color: #fff;
+  border-radius: 2px;
+  border-top: 3px solid #20a850;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#page-content
+{
+  width: 84%;
+  min-height: 200px;
+  position: absolute;
+  top: 50px;
+  left: 16%;
+}
+
+#page-content-justify
+{
+  width: 90%;
+  display: table;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#page-header
+{
+  font-size: 32px;
+  font-weight: 200;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.settingsWall
+{
+  width: 100%;
+  min-height: 200px;
+  border: 2px solid #f27e88;
+  border-left: 1px solid #fc5d6b;
+  border-radius: 2px;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+
+.wall-content
+{
+  margin: 0 auto;
+  margin-top: 20px;
+  display: table;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.wall-content .option {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.wall-content .title
+{
+  font-size: 15px;
+  color: #fc5d6b;
+  margin-bottom: 5px;
+}
+
+.wall-content .textInput
+{
+  width: 97.5%;
+  padding: 12px 10px;
+  border-radius: 1px;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+  font-size: 0.87rem;
+}
+
+::placeholder
+{
+  color: #aaa;
+}
+
+.textInput:focus
+{
+  outline: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 185, 0.30);
+}
+
+.wall-content .button
+{
+  border: 1px solid #337ab7;
+  color: #337ab7;
+  display: table;
+  padding: 10px 40px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.wall-content .button:hover
+{
+  background-color: #337ab7;
+  color: #fff;
+  cursor: pointer;
+}

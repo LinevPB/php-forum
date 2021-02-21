@@ -1,0 +1,129 @@
+#announcements
+{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.announce
+{
+  width: 30%;
+  margin-right: 2%;
+  min-height: 200px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding: 10px 1%;
+  display: table;
+  float: left;
+  padding-bottom: 0;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.announce:last-child
+{
+  margin-right: 0 !important;
+}
+
+.announce a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+.announce img
+{
+  width: 64px;
+  height: auto;
+}
+
+.announce .threadName
+{
+  display: table;
+  color: #337ab7;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  height: 30px;
+}
+
+.announce .threadName a:hover
+{
+  color: #115895;
+}
+
+.announce .announceContent
+{
+  display: table;
+  width: 100%;
+}
+
+.announceContent .authorAvatar
+{
+  float: left;
+  margin-right: 5px;
+}
+
+.authorAvatar img
+{
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+
+.announceContent .threadContent
+{
+  font-size: 0.8rem;
+  color: #333;
+  height: 120px;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.threadInfo
+{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+.threadInfo .threadIcon
+{
+  min-width: 24px;
+  min-height: 24px;
+  background-color: #ff9900;
+  color: #fff;
+  margin-right: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.threadIcon img
+{
+  width: 24px;
+  height: 24px;
+}
+
+.threadInfo .categoryName
+{
+  color: #6c757d;
+  font-size: 85%;
+  flex: 1;
+}
+
+.threadInfo .whenThread
+{
+  color: #6c757d;
+  font-size: 65%;
+  flex: 1;
+  text-align: right;
+}

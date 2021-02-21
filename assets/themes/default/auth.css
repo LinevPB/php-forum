@@ -1,0 +1,114 @@
+#page-content
+{
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80%;
+  min-height: 100px;
+}
+
+#page-content #category-link
+{
+  color: #6c757d;
+  font-size: 16px;
+}
+
+#page-content #category-link a
+{
+  float: left;
+  margin-right: 10px;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+#page-content #category-link a:hover
+{
+  color: #116895;
+}
+
+#page-content #category-link .category-slash
+{
+  float: left;
+  margin-right: 20px;
+  color: #aaa;
+}
+
+#page-content form
+{
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#page-content form .element
+{
+  display: block;
+  margin-bottom: 25px;
+  min-height: 42px;
+}
+
+.element input[type="text"], input[type="password"]
+{
+  width: 40%;
+  height: 42px;
+  margin-left: 1%;
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #111;
+  border: 1px solid #aaa;
+  border-radius: 1px;
+}
+
+.element input[type="text"]:focus, input[type="password"]:focus
+{
+  /*box-shadow: 1px 1px 1px 1px #337ab7;*/
+  box-shadow: 0 0 5px 0.5px #337ab7;
+  outline: none;
+}
+
+form .element .info
+{
+  float: left;
+  width: 15%;
+}
+
+.element input[type="checkbox"]
+{
+  margin-left: 16%;
+}
+
+.element input[type="submit"]
+{
+  margin-left: 16%;
+  width: 40%;
+  height: 40px;
+  border: 1px solid #2e6da4;
+  background-color: #337ab7;
+  font-size: 15px;
+  color: #fff;
+}
+
+
+.element input[type="submit"]:hover
+{
+  background-color: #115895;
+  cursor: pointer;
+}
+
+#page-content #error
+{
+  margin-left: 16%;
+  color: #ff0000;
+}
+
+#links
+{
+  margin-left: 16%;
+  margin-bottom: 30px;
+}
+
+#links a
+{
+  text-decoration: none;
+  margin-right: 10px;
+}

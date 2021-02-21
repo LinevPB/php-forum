@@ -1,0 +1,175 @@
+#page-content
+{
+  display: table;
+  margin: 0 auto;
+  width: 83%;
+  min-height: 200px;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#page-content .category
+{
+  width: 100%;
+  display: block;
+  min-height: 60px;
+  margin-bottom: 20px;
+  position: relative;
+  float: left;
+  word-break: break-all;
+}
+
+/* .category-icon */
+
+#page-content .category .category-icon
+{
+  float: left;
+  width: 46px;
+  height: 100%;
+  margin-right: 1%;
+}
+
+#page-content .category .category-icon .ct-icon
+{
+  width: 46px;
+  height: 46px;
+  border-radius: 100%;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* .category-content */
+
+#page-content .category .category-content
+{
+  float: left;
+  display: block;
+  width: 45%;
+  min-height: 54px;
+}
+
+#page-content .category .category-title
+{
+  display: block;
+  font-size: 19px;
+  font-weight: bold;
+  color: #337ab7;
+}
+
+#page-content .category .category-title a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+#page-content .category .category-title a:hover
+{
+  color: #1158a6;
+}
+
+#page-content .category .category-description
+{
+  display: block;
+  font-size: 12px;
+  color: #6c757d;
+  margin-top: 5px;
+}
+
+/* .category-lastpost */
+
+#page-content .category .category-statistics
+{
+  float: right;
+  width: 22.5%;
+}
+
+#page-content .category .category-statistics .stat
+{
+  display: inline-block;
+  float: right;
+  padding: 0 5px;
+  text-align: center;
+}
+
+#page-content .category .category-statistics .stat .amount
+{
+  display: block;
+  font-size: 18px;
+  color: #000;
+}
+
+#page-content .category .category-statistics .stat .type
+{
+  display: block;
+  font-size: 0.75rem;
+  color: #6c757d;
+}
+
+#page-content .category .category-statistics .border
+{
+  /*height: 54px;
+  padding-right: 4px;
+  margin-left: 10%;
+  background-color: #f0f;
+  float: right;*/
+}
+
+/* .category-lastpost */
+
+#page-content .category .category-lastpost
+{
+  border-left: 4px solid #000;
+  padding-left: 20px;
+  width: 15%;
+  float: right;
+  display: block;
+  margin-left: 2%;
+}
+
+#page-content .category .category-lastpost img
+{
+  float: left;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+#page-content .category .category-lastpost .lastpost-lastuser
+{
+  height: 24px;
+  font-size: 14px;
+  color: #202020;
+  float: left;
+}
+
+#page-content .category .category-lastpost a
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+#page-content .category .category-lastpost .user-when
+{
+  font-size: 0.7rem;
+  color: #6c757d;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  height: 24px;
+}
+
+#page-content .category .category-lastpost .lastpost-lastthread
+{
+  clear: both;
+  padding-top: 5px;
+  display: block;
+  font-size: 0.7rem;
+}

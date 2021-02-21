@@ -1,0 +1,182 @@
+#navigation
+{
+  width: 100%;
+  height: 50px;
+  background-color: #fefefe;
+  border-bottom: 1px solid #efefef;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+#navigation #container
+{
+  height: inherit;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#navigation #container #nav-page-name a
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+#navigation #container #nav-page-name
+{
+  float: left;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#navigation #container #nav-dropdown
+{
+  float: left;
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+  height: inherit;
+}
+
+#navigation #container #nav-dropdown a
+{
+  color: #555;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+#navigation #container #nav-dropdown li
+{
+  margin: 0 10px;
+  float: left;
+}
+
+#navigation #container #nav-dropdown a:hover
+{
+  color: #000;
+}
+
+#navigation #container #nav-auth
+{
+  list-style-type: none;
+  float: right;
+  height: inherit;
+  position: relative;
+  margin: 0;
+}
+
+#navigation #container #nav-auth a
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+#nav-auth a, #nav-auth li
+{
+  float: left;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-auth #register
+{
+  padding-right: 10px;
+}
+
+#navigation #container #nav-auth li
+{
+
+  font-size: 0.85rem;
+  color: #333;
+}
+
+#nav-auth li img
+{
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  margin-left: 5px;
+}
+
+#nav-auth #account-menu ol
+{
+  position: fixed;
+  top: 50px;
+  display: none;
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  border: #a1a1a1 solid 1px;
+}
+
+#account-menu ol:after
+{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 8px 16px;
+  border-color: #ffffff transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -16px;
+  left: 130px;
+}
+
+#account-menu ol:before
+{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 8px 16px;
+  border-color: #a1a1a1 transparent;
+  display: block;
+  width: 0;
+  z-index: 0;
+  top: -17px;
+  left: 130px;
+}
+
+#nav-auth #account-menu:hover
+{
+  cursor: pointer;
+}
+
+#nav-auth #account-menu:hover ol
+{
+  display: block;
+}
+
+#nav-auth #account-menu ol li
+{
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+  padding: 10px 15px;
+  width: 170px;
+}
+
+#account-menu ol a
+{
+  text-decoration: none;
+}
+
+#account-menu ol a:hover
+{
+  background-color: #f2f2f2;
+}

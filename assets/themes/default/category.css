@@ -1,0 +1,236 @@
+#page-content
+{
+  margin: 100px auto;
+  margin-top: 50px;
+  width: 90%;
+  min-height: 100px;
+}
+
+#page-content #category-link
+{
+  color: #6c757d;
+  font-size: 16px;
+}
+
+#page-content #category-link a
+{
+  float: left;
+  margin-right: 10px;
+  color: #337ab7;
+  text-decoration: none;
+}
+
+#page-content #category-link a:hover
+{
+  color: #116895;
+}
+
+#page-content #category-link .category-slash
+{
+  float: left;
+  margin-right: 20px;
+  color: #aaa;
+}
+
+#page-content #category-name
+{
+  text-transform: uppercase;
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: 100;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#page-content .thread
+{
+  width: 100%;
+  margin-bottom: 15px;
+  min-height: 64px;
+  position: relative;
+  float: left;
+  word-break: break-all;
+}
+
+/* .thread .avatar */
+
+.thread .creator-avatar
+{
+  height: 100%;
+  float: left;
+  max-width: 7.5%;
+  margin-right: 10px;
+}
+
+.thread .creator-avatar img
+{
+  width: 46px;
+  height: 46px;
+  border-radius: 100%;
+}
+
+/* .thread .content */
+
+.thread .thread-content
+{
+  width: 45%;
+  float: left;
+  display: block;
+  min-height: 54px;
+}
+
+#page-content .thread-content .title
+{
+  display: block;
+  font-size: 19px;
+  font-weight: bold;
+  color: #337ab7;
+}
+
+#page-content .thread-content .title a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+#page-content .thread-content .title a:hover
+{
+  color: #1158a6;
+}
+
+#page-content .thread-content .date-who
+{
+  display: block;
+  font-size: 12px;
+  color: #6c757d;
+  margin-top: 5px;
+}
+
+.thread-content .date-who a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* .thread .statistics */
+
+.thread .thread-statistics
+{
+  width: 26%;
+  float: right;
+}
+
+.thread .thread-statistics .stat
+{
+  display: inline-block;
+  float: right;
+  padding: 0 10px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.thread .thread-statistics .stat .amount
+{
+  display: block;
+  font-size: 18px;
+  color: #000;
+}
+
+.thread .thread-statistics .stat .type
+{
+  display: block;
+  font-size: 0.75rem;
+  color: #6c757d;
+  text-transform: uppercase;
+}
+
+.thread .thread-statistics .border
+{
+/*  height: 54px;
+  padding-right: 4px;
+  margin-left: 10%;
+  background-color: #a1a8ae;
+  float: right;*/
+}
+
+/* .thread .lastpost */
+
+.thread .thread-lastpost
+{
+  width: 15%;
+  float: right;
+  display: block;
+  border-left: 4px solid #a1a8ae;
+  padding-left: 20px;
+}
+
+.thread .thread-lastpost .lastuser img
+{
+  float: left;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+
+.thread .thread-lastpost .lastuser
+{
+  height: 24px;
+  font-size: 14px;
+  color: #202020;
+  float: left;
+}
+
+.thread .thread-lastpost a
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+.thread .thread-lastpost .user-when
+{
+  font-size: 0.7rem;
+  color: #6c757d;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  height: 24px;
+}
+
+.thread .thread-lastpost .lastpost
+{
+  clear: both;
+  padding-top: 5px;
+  display: block;
+  font-size: 0.7rem;
+}
+
+#page-content a
+{
+  text-decoration: none;
+}
+
+#page-content a #input
+{
+  margin-top: 20px;
+  width: 240px;
+  padding: 12px 0;
+  border: 1px solid #2e6da4;
+  background-color: #337ab7;
+  font-size: 15px;
+  color: #fff;
+  word-spacing: 0.25rem;
+  text-align: center;
+}
+
+#page-content a #input:hover
+{
+  background-color: #115895;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+#page-content
+{
+  font-size: 20px;
+}
+
+canvas
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border:30px solid #50a420;
+  position: absolute;
+}
+
+#part1
+{
+  border-color: #50a420;
+  clip-path: polygon(50% 60%, 0 80%, 0 0, 110% 0);
+}
+
+#part2
+{
+  border-color: #5020a4;
+  clip-path: polygon(0% 80%, 100% 10%, 100% 100%, 20% 100%);
+}
