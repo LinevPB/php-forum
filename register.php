@@ -53,7 +53,7 @@
 
       <div class="element">
         <input type="checkbox" id="remember">
-        <label for="remember">I accept FAQ.</label>
+        <label for="remember">I accept TOS.</label>
       </div>
 
       <?php
