@@ -91,7 +91,7 @@
 
     <div class="post-content">';
 
-    if (!$row["active"]) {
+    if (!$row["active"]==0) {
       echo nl2br(transformBBCode($row["content"]));
     } else {
       echo "<div class='postRemoved'>This post has been removed.</div>";
