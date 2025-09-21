@@ -1,3 +1,5 @@
+Import a default database 'forum.sql' if not done earlier.
+
 <img width="2560" height="1440" alt="1" src="https://github.com/user-attachments/assets/cdbd6ce8-02d6-47ae-a067-944ad3da2d2f" />
 <img width="2560" height="1440" alt="10" src="https://github.com/user-attachments/assets/e109bda6-ab46-4590-8858-a8c49d7bc3c8" />
 <img width="2560" height="1440" alt="9" src="https://github.com/user-attachments/assets/ae18c405-dc42-4a3b-b012-d515893b1a62" />
