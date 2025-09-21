@@ -1,6 +1,33 @@
+# Forum Project
+
+**A simple discussion forum built with PHP and MySQL.**  
+The project allows users to register, log in, create threads, post replies, and manage categories and user groups. It includes an admin panel for managing users, threads, posts, categories, and groups.
+
+---
+
+## Features
+
+- **User registration and login**  
+- **Thread and post creation/editing**  
+- **Category management**  
+- **User groups and permissions** (e.g., admin, user)  
+- **Admin panel** for managing users, threads, posts, categories, and groups  
+- **Online users list and statistics**  
+- **Profile editing and avatar support**  
+- **BBCode support and forum settings**  
+
+---
+
+## Setup
+
+1. Import the default database: `forum.sql`  
+2. Configure database connection in the project  
+
+---
+
 Import a default database 'forum.sql' if not done earlier.
 
-Sample images of the site:
+## Screenshots
 <img width="2560" height="1440" alt="1" src="https://github.com/user-attachments/assets/cdbd6ce8-02d6-47ae-a067-944ad3da2d2f" />
 <img width="2560" height="1440" alt="6" src="https://github.com/user-attachments/assets/78b6fb9d-c774-43fd-b894-0237ef7514e7" />
 <img width="2560" height="1440" alt="5" src="https://github.com/user-attachments/assets/6f2f0d76-eacd-4ff7-b054-180343a7638f" />
